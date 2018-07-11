@@ -5,7 +5,7 @@ import { VisibilityFilters } from '../actions'
 
 
 const getVisibleTodos = (todos, filter) => {
-    switch(filter) {
+    switch (filter) {
         case VisibilityFilters.SHOW_ALL:
             return todos
         case VisibilityFilters.SHOW_COMPLETED:
